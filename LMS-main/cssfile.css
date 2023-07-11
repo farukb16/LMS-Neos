@@ -1,0 +1,193 @@
+/* Base Css Start */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Raleway, sans-serif;
+}
+/* Base Css End */
+
+/* İndex Css */
+.hero1 {
+   height: 150px;
+   background-image: url("img/hero1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.hero2 {
+   height: 150px;
+   background-image: url("img/hero2.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.freecourse {
+   height: 300px;
+   background-image: url("img/free-courses.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 95%;
+  
+ }
+/* İndex Css End */
+
+/* Dersler Css Start */
+.floating-user{
+   border: 1px solid white;
+   border-radius: 35px ;
+ }
+ .percent{
+   position: absolute;
+   top: 0;
+   right: 0;
+ }
+/* Dersler Css End */
+
+/* Login Css Start */
+.login-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+ }
+
+ 
+ .login {
+   width: 320px;
+   padding: 30px;
+   padding-top: 0px;
+ }
+ 
+ .login__field {
+   padding: 20px 0px;
+   position: relative;
+ }
+ 
+ .login__icon {
+   position: absolute;
+   top: 30px;
+   color: #1a2b48;
+ }
+ 
+ .login__input {
+   border: none;
+   border-bottom: 2px solid #d1d1d4;
+   background: none;
+   padding: 10px;
+   padding-left: 24px;
+   font-weight: 700;
+   width: 75%;
+   transition: 0.2s;
+ }
+ 
+ .login__input:active,
+ .login__input:focus,
+ .login__input:hover {
+   outline: none;
+   border-bottom-color: #1a2b48;
+ }
+ 
+ .login__submit {
+   background: #fff;
+   font-size: 14px;
+   margin-top: 30px;
+   padding: 16px 20px;
+   border-radius: 26px;
+   border: 1px solid #d4d3e8;
+   text-transform: uppercase;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   color: #1a2b48;
+   box-shadow: 0px 2px 2px #1a2b48;
+   cursor: pointer;
+   transition: 0.2s;
+ }
+ 
+ .login__submit:active,
+ .login__submit:focus,
+ .login__submit:hover {
+   border-color: #1a2b48;
+   outline: none;
+ }
+ 
+ .social-login {
+   height: 23px;
+   width: 315px;
+   padding-top: 80px;
+   text-align: center;
+   bottom: 0px;
+   right: 0px;
+   color: #fff;
+ }
+ 
+ .social-icons {
+   display: flex;
+   align-items: center;
+   justify-content:flex-end ;
+ }
+ 
+ .social-login__icon {
+   padding: 20px 10px;
+   color: #fff;
+   text-decoration: none;
+   text-shadow: 0px 0px 8px #1a2b48;
+ }
+ 
+ .social-login__icon:hover {
+   transform: scale(1.5);
+ }
+/* Login Css End */
+
+
+/*! eğitmenler css start */
+.rounded-image {
+   clip-path: circle(40%);
+}
+.list-group-item{
+   flex: 1 0 auto;
+   margin: 0.5rem;
+   color: #FFF;
+   font-size: 11.244px;
+   line-height: 15.741px;
+}
+.list-group {
+   display: flex !important;
+   flex-wrap: nowrap !important;
+   overflow-x: auto !important;
+}
+/*! eğitmenler css end */
+
+/* Kurs Detay Start */
+.card-img{
+  
+   height: 600px;
+   background-image: url("img/ders.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 95%;
+  
+ }
+/* Kurs Detay End */
+
+/*! Kategori css */
+.kategorImg{
+    max-width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    box-shadow:  rgb(0, 0, 0) 0px 0px 0px 4px; 
+}
+
+.kategorImg:hover{
+    box-shadow:  rgb(137, 137, 139) 0px 0px 0px 6px; 
+}
+/*! Kategori Css End */
+
+
+
+
